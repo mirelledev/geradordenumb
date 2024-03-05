@@ -1,0 +1,84 @@
+body{
+    background-image: url(/imagens/riho-kroll-m4sGYaHYN5o-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+#myButton{
+    border-radius: 5px;
+    padding: 5px 35px;
+    font-size: 1em;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 20px;
+
+
+}
+
+#frase {
+    text-align: center;
+    font-size: 3em;
+
+}
+
+#resultdado{
+    text-align: center;
+    font-size: 3em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+#myButton:hover{
+    background-color: hsl(0, 0%, 86%);
+    cursor: pointer;
+}
+
+#myButton:active{
+    background-color: hsl(0, 0%, 25%);
+    color:white;
+    
+}
+
+#container{
+    text-align: center;
+    background-color: hsla(0, 0%, 91%, 0.89);
+    height: 600px;
+    padding: 30px 30px;
+    width: 500px;
+    margin: auto;;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px;
+
+}
+
+#container label{
+    font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    
+}
+
+#container input{
+    font-size: 1.2em;
+    border-radius: 10px;
+
+}
+
+#curi{
+    margin-top: 140px;
+    font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
